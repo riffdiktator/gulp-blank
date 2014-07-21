@@ -24,7 +24,6 @@ gulp.task('jade', function(){
 gulp.task('sass', function () {
     gulp.src('./src/sass/**/*.scss')
         .pipe(sass({
-            config_file: 'config.rb',
             css: './dist/styles/',
             sass: './src/sass/'
         }))
